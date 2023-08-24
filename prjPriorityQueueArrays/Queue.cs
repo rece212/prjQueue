@@ -27,7 +27,7 @@ namespace prjPriorityQueueArrays
             {
                 if ( HighestPriority == pr[i].priority && iPos >-1 && pr[iPos].value < pr[i].value)
                 {
-                    HighestPriority = pr[i].value;
+                    HighestPriority = pr[i].priority;
                     iPos = i;    
                 }
                 else if (HighestPriority < pr[i].priority)
